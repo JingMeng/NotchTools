@@ -1,7 +1,7 @@
-package com.geek.notchtools;
+﻿package com.geek.notchtools;
 
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,11 +17,11 @@ import notchtools.geek.com.notchtools.NotchTools;
 public class BaseActivity extends AppCompatActivity {
 
     /**
-     * 刘海容器
+     * 鍒樻捣瀹瑰櫒
      */
     private FrameLayout mNotchContainer;
     /**
-     * 主内容区
+     * 涓诲唴瀹瑰尯
      */
     private FrameLayout mContentContainer;
 
@@ -38,3 +38,4 @@ public class BaseActivity extends AppCompatActivity {
         LayoutInflater.from(this).inflate(layoutResID, mContentContainer, true);
     }
 }
+

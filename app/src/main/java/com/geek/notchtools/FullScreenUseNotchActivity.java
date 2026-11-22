@@ -1,6 +1,6 @@
-package com.geek.notchtools;
+﻿package com.geek.notchtools;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -37,8 +37,7 @@ public class FullScreenUseNotchActivity extends BaseActivity implements OnNotchC
     }
 
     /**
-     * onWindowFocusChanged最好也进行全屏适配，防止失去焦点又重回焦点时的flag不正确。
-     * @param hasFocus
+     * onWindowFocusChanged鏈€濂戒篃杩涜鍏ㄥ睆閫傞厤锛岄槻姝㈠け鍘荤劍鐐瑰張閲嶅洖鐒︾偣鏃剁殑flag涓嶆纭€?     * @param hasFocus
      */
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
@@ -48,3 +47,4 @@ public class FullScreenUseNotchActivity extends BaseActivity implements OnNotchC
         super.onWindowFocusChanged(hasFocus);
     }
 }
+
